@@ -1,24 +1,29 @@
-## Subpixel Diameter Measurement at Different Angles
+# CSV Data Files
 
-This repository contains subpixel-based diameter measurements at **0°, 30°, and 60°**, evaluating measurement accuracy, precision, and angular sensitivity against a nominal diameter of **27.6 mm**.
+This repository contains CSV datasets for calibration, STM measurements, vibration testing, and computational performance.
 
-### Dataset Files
+## File Structure
 
-- `subpixel_measurement_0_degree.csv` — Measurements at 0°.
-- `subpixel_measurement_30_degree.csv` — Measurements at 30°.
-- `subpixel_measurement_60_degree.csv` — Measurements at 60°.
+```text
+.
+├── README.md
+├── calibration_intermediates.csv
+├── compute_flops_layerwise.csv
+├── compute_latency_summary.csv
+├── frame_level_vibration.csv
+├── latency_runs.csv
+├── perspective_correction_factors.csv
+├── stm_intermediate_measurements.csv
+└── stm_scanline_distances.csv
+```
 
-The CSV files contain subpixel-based measurements used to evaluate diameter estimation at different angles.
+## File Descriptions
 
-### Measurement Results
-
-| Angle | Accepted N | Mean Diameter (mm) | SD (mm) | Bias (mm) | RMSE (mm) |
-|-------|-----------:|-------------------:|--------:|----------:|----------:|
-| 0°    | 1435       | 27.59996           | 0.000287 | -0.0000415 | 0.00029 |
-| 30°   | 407        | 27.37000           | 0.000157 | -0.23000   | 0.23000 |
-| 60°   | 422        | 22.36000           | 0.000132 | -5.24000   | 5.24000 |
-
-
-### Conclusion
-
-The subpixel measurement method demonstrates excellent accuracy at 0°, but increasing angular orientation introduces substantial systematic bias. These results highlight the importance of angular calibration and geometric correction for accurate diameter estimation.
+- **`calibration_intermediates.csv`** — Checkerboard calibration values, pixel scales, and camera geometry at different viewing angles.
+- **`compute_flops_layerwise.csv`** — Layer-by-layer model operations, MACs, FLOPs, and parameter counts.
+- **`compute_latency_summary.csv`** — Overall latency, FPS, and throughput estimates for different precisions and devices.
+- **`frame_level_vibration.csv`** — Frame-by-frame diameter measurements and errors across vibration test cases.
+- **`latency_runs.csv`** — Individual processing-stage latency measurements for TF32, FP16 AMP, and TensorRT FP16.
+- **`perspective_correction_factors.csv`** — Perspective correction factors and diameter biases at different angles.
+- **`stm_intermediate_measurements.csv`** — Intermediate STM distance measurements, filtering statistics, and diameter accuracy metrics.
+- **`stm_scanline_distances.csv`** — Per-scanline pixel distances, converted millimeter distances, and residual errors.
