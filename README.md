@@ -18,13 +18,6 @@ The CSV files contain subpixel-based measurements used to evaluate diameter esti
 | 30°   | 407        | 27.37000           | 0.000157 | -0.23000   | 0.23000 |
 | 60°   | 422        | 22.36000           | 0.000132 | -5.24000   | 5.24000 |
 
-### Key Findings
-
-- **0°:** Highest measurement accuracy, with an RMSE of approximately **0.29 µm**.
-- **30°:** Diameter underestimated by **0.23 mm**.
-- **60°:** Significant underestimation of **5.24 mm**.
-- **Precision:** Standard deviations remain very small across all angles.
-- **Angular Sensitivity:** Systematic measurement error increases significantly with measurement angle.
 
 ### Conclusion
 
