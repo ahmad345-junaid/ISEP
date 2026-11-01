@@ -1,0 +1,70 @@
+﻿angle_deg,quantity,value,value_numeric,grid_rows,grid_columns,unit
+60,checkerboard inner-corner grid,12x12,,12,12,
+60,intervals per axis,11,11,,,
+60,focal length,1778,1778,,,px
+60,horizontal pixel span,441.63,441.63,,,px
+60,vertical pixel span,502.37,502.37,,,px
+60,horizontal corner pitch,40.148,40.148,,,px
+60,horizontal corner pitch ,40.148,40.148,,,px
+60,vertical corner pitch,45.67,45.67,,,px
+60,vertical corner pitch ,45.67,45.67,,,px
+60,horizontal scale,0.07748,0.07748,,,mm/px
+60,vertical scale,0.06813,0.06813,,,mm/px
+60,effective scale,0.072803,0.072803,,,mm/px
+60,effective scale,0.072805,0.072805,,,mm/px
+60,implied physical span along x,34.217,34.217,,,mm
+60,implied physical span along y,34.226,34.226,,,mm
+60,implied square pitch,3.1111,3.1111,,,mm
+60,directional anisotropy,12.84,12.84,,,%
+60,directional sensitivity,6.42,6.42,,,%
+60,aspect ratio of corner pitch,1.13754,1.13754,,,
+60,fronto-parallel-equivalent depth,129.4,129.4,,,mm
+60,board foreshortening (single-axis tilt model),0.87932,0.87932,,,
+60,board tilt (single-axis tilt model),28.4,28.4,,,deg
+60,"normal-projected scale for n=(0,1)",0.06813,0.06813,,,mm/px
+30,checkerboard inner-corner grid,12x12,,12,12,
+30,intervals per axis,11,11,,,
+30,focal length,1778,1778,,,px
+30,horizontal pixel span,314.74,314.74,,,px
+30,vertical pixel span,326.68,326.68,,,px
+30,horizontal corner pitch,28.613,28.613,,,px
+30,horizontal corner pitch,28.613,28.613,,,px
+30,vertical corner pitch,29.698,29.698,,,px
+30,vertical corner pitch ,29.698,29.698,,,px
+30,horizontal scale,0.08851,0.08851,,,mm/px
+30,vertical scale,0.08528,0.08528,,,mm/px
+30,effective scale,0.086894,0.086894,,,mm/px
+30,effective scale ,0.086895,0.086895,,,mm/px
+30,implied physical span along x,27.858,27.858,,,mm
+30,implied physical span along y,27.859,27.859,,,mm
+30,implied square pitch,2.5326,2.5326,,,mm
+30,directional anisotropy,3.72,3.72,,,%
+30,directional sensitivity,1.86,1.86,,,%
+30,aspect ratio of corner pitch,1.03794,1.03794,,,
+30,fronto-parallel-equivalent depth,154.5,154.5,,,mm
+30,board foreshortening (single-axis tilt model),0.96351,0.96351,,,
+30,board tilt (single-axis tilt model),15.5,15.5,,,deg
+30,"normal-projected scale for n=(0,1)",0.08528,0.08528,,,mm/px
+0,checkerboard inner-corner grid,12x12,,12,12,
+0,intervals per axis,11,11,,,
+0,focal length,1778,1778,,,px
+0,horizontal pixel span,331.03,331.03,,,px
+0,vertical pixel span,348.26,348.26,,,px
+0,horizontal corner pitch,30.094,30.094,,,px
+0,horizontal corner pitch ,30.094,30.094,,,px
+0,vertical corner pitch,31.66,31.66,,,px
+0,vertical corner pitch ,31.66,31.66,,,px
+0,horizontal scale,0.16267,0.16267,,,mm/px
+0,vertical scale,0.15464,0.15464,,,mm/px
+0,effective scale,0.158655,0.158655,,,mm/px
+0,effective scale ,0.158655,0.158655,,,mm/px
+0,implied physical span along x,53.849,53.849,,,mm
+0,implied physical span along y,53.855,53.855,,,mm
+0,implied square pitch,4.8956,4.8956,,,mm
+0,directional anisotropy,5.06,5.06,,,%
+0,directional sensitivity,2.53,2.53,,,%
+0,aspect ratio of corner pitch,1.05205,1.05205,,,
+0,fronto-parallel-equivalent depth,282.1,282.1,,,mm
+0,board foreshortening (single-axis tilt model),0.95064,0.95064,,,
+0,board tilt (single-axis tilt model),18.1,18.1,,,deg
+0,"normal-projected scale for n=(0,1)",0.15464,0.15464,,,mm/px

@@ -1,0 +1,22 @@
+﻿layer,operation,k,c_in,c_out_conv,h_out,w_out,macs,gmac,gflops_2x_mac,weights,paper_gmac
+E1,conv3x3 s1,3,7,32,2000,2200,8870400000,8.87,17.741,2016,8.87
+E2,conv3x3 s2,3,32,64,1000,1100,20275200000,20.275,40.55,18432,20.28
+E3,dilated conv3x3 s2 d2,3,64,128,500,550,20275200000,20.275,40.55,73728,20.28
+E4,dilated conv3x3 s1 d4,3,128,256,500,550,81100800000,81.101,162.202,294912,81.1
+B1-main,deformable conv3x3 (K_pts=9),3,256,256,500,550,1.62202E+11,162.202,324.403,589824,
+B1-offset,conv3x3 offset branch (2*9=18 ch),3,256,18,500,550,11404800000,11.405,22.81,41472,
+D1,conv3x3 -> pixel shuffle r=2 (256->4*128),3,256,512,500,550,3.24403E+11,324.403,648.806,1179648,324.4
+D2,conv3x3 -> pixel shuffle r=2 (128->4*64),3,128,256,1000,1100,3.24403E+11,324.403,648.806,294912,324.4
+Head-1,conv1x1 edge,1,64,1,2000,2200,281600000,0.282,0.563,64,0.28
+Head-2,conv1x1 offset,1,64,2,2000,2200,563200000,0.563,1.126,128,0.56
+B1-total,B1 main + offset,,,,,,1.73606E+11,173.606,347.213,,173.61
+TOTAL-conv,all convolutions,,,,,,9.53779E+11,953.779,1907.56,2495136,953.8
+x-DCN-sampling,"bilinear sampling, 4 mul + 3 add per tap",,256,,500,550,,,4.44,,
+x-BN+ReLU,unfolded BN (2) + ReLU (1) per activation,,,,,,,,2.43,,
+x-skip-add,additive skips S1-S2,,,,,,,,0.42,,
+x-TOTAL-excluded,excluded ops,,,,,,,,7.29,,
+skip-proj-S1,conv1x1 skip projection (channel matching),1,32,64,2000,2200,9011200000,9.011,18.022,2048,
+skip-proj-S2,conv1x1 skip projection (channel matching),1,64,128,1000,1100,9011200000,9.011,18.022,8192,
+TOTAL-with-proj,main-path convolutions + 1x1 skip projections,,,,,,9.71802E+11,971.8,1943.6,2505376,
+params,main-path conv weights only (no bias/BN),,,,,,,,,2495136,2.5 M
+params-with-proj,conv weights incl. 1x1 skip projections,,,,,,,,,2505376,

@@ -1,0 +1,22 @@
+﻿quantity,value,value_numeric,unit,device_scope
+convolution count,1907.6,1907.6,GFLOP/frame,RTX3090
+effective throughput TF32,21.4,21.4,TFLOP/s,RTX3090
+share of dense peak TF32,60,60,%,RTX3090
+end-to-end mean TF32,100.2,100.2,ms,RTX3090
+FPS mean TF32,10,10,frame/s,RTX3090
+effective throughput FP16 AMP,34.7,34.7,TFLOP/s,RTX3090
+share of dense peak FP16 AMP,49,49,%,RTX3090
+end-to-end mean FP16 AMP,66.2,66.2,ms,RTX3090
+FPS mean FP16 AMP,15.1,15.1,frame/s,RTX3090
+effective throughput TensorRT FP16,45.4,45.4,TFLOP/s,RTX3090
+share of dense peak TensorRT FP16,64,64,%,RTX3090
+end-to-end mean TensorRT FP16,53.2,53.2,ms,RTX3090
+FPS mean TensorRT FP16,18.8,18.8,frame/s,RTX3090
+end-to-end P95 TF32,125.7,125.7,ms,RTX3090
+FPS P95 TF32,8,8,frame/s,RTX3090
+ISEP P95 FP16 AMP,68.3,68.3,ms,RTX3090
+ISEP P95 TensorRT FP16,51.9,51.9,ms,RTX3090
+Jetson count at 640x640,177.6,177.6,GFLOP/frame,JetsonNano
+Jetson effective throughput,82.6,82.6,GFLOP/s,JetsonNano
+Jetson share of FP16 peak,17.5,17.5,%,JetsonNano
+Jetson FPS,0.46,0.46,frame/s,JetsonNano

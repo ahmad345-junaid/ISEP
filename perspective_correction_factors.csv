@@ -1,0 +1,41 @@
+﻿angle_deg,quantity,value,unit
+0,raw STM diameter,27.6,mm
+0,raw absolute bias,0.04,um
+0,empirical factor,1,
+0,compensated diameter ,27.6,mm
+0,nominal-angle factor,1,
+0,board-anisotropy factor,1.05193,
+0,pose-derived factor,0.97469,
+0,compensated diameter ,26.902,mm
+0,absolute bias ,698,um
+0,relative error ,2.53,%
+30,raw STM diameter,27.37,mm
+30,raw absolute bias,230,um
+30,empirical factor,1.00687,
+30,raw aggregate used to fit C,27.412,mm
+30,empirical factor,1.00686,
+30,compensated diameter ,27.558,mm
+30,bias reduction ,81.75,%
+30,equivalent angle,6.7,deg
+30,nominal-angle factor,1.1547,
+30,board-anisotropy factor,1.03788,
+30,pose-derived factor,0.98143,
+30,compensated diameter ,26.862,mm
+30,absolute bias ,738,um
+30,relative error ,2.68,%
+30,bias change ,-221,%
+60,raw STM diameter,22.36,mm
+60,raw absolute bias,5240,um
+60,empirical factor,1.19454,
+60,raw aggregate used to fit C,23.105,mm
+60,empirical factor,1.19455,
+60,compensated diameter ,26.7099,mm
+60,bias reduction ,83.01,%
+60,equivalent angle,33.16,deg
+60,nominal-angle factor,2,
+60,board-anisotropy factor,1.13724,
+60,pose-derived factor,0.93581,
+60,compensated diameter ,20.925,mm
+60,absolute bias ,6675,um
+60,relative error ,24.19,%
+60,bias change ,-27,%
