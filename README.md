@@ -4,9 +4,9 @@ This repository contains subpixel-based diameter measurements at **0°, 30°, an
 
 ### Dataset Files
 
-- `subpixel_measurement_0_degree(4).csv` — Measurements at 0°.
-- `subpixel_measurement_30_degree(3).csv` — Measurements at 30°.
-- `subpixel_measurement_60_degree(3).csv` — Measurements at 60°.
+- `subpixel_measurement_0_degree.csv` — Measurements at 0°.
+- `subpixel_measurement_30_degree.csv` — Measurements at 30°.
+- `subpixel_measurement_60_degree.csv` — Measurements at 60°.
 
 The CSV files contain subpixel-based measurements used to evaluate diameter estimation at different angles.
 
